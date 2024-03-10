@@ -1,0 +1,57 @@
+header , footer {
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    clear:left;
+
+}
+nav {
+    background-color: aqua; 
+    padding: 1em;
+    
+    a:hover {
+        color: red;
+      }
+   
+}
+
+
+.wrapper {
+   display:flex;
+}
+
+.wrapper >div{
+    flex:1; 
+    text-align: center;
+
+}
+section {
+
+float:left;
+width: 10%;
+color: blue;
+background-color: beige;
+margin-right: 1em;
+height: 500px;
+padding: 1em;
+}
+
+aside {
+    float:center;
+    width: 50%;
+    color: blue;
+    height: 500px;
+    padding: 1em;
+}
+
+article {
+float: left;
+width: 65%;
+padding: 1em ;
+color: rgb(215, 205, 255);
+height: 500px;
+}
+
